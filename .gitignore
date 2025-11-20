@@ -1,0 +1,27 @@
+# Unreal generated
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+*.VC.db
+*.opensdf
+*.sdf
+
+# Build artifacts
+*.pdb
+*.obj
+*.log
+*.tlog
+
+# Rider / JetBrains
+.idea/
+*.sln
+*.user
+*.userprefs
+
+# Backup & temp
+*.tmp
+*.temp
+*.log
+*.cache

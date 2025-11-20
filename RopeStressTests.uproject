@@ -1,0 +1,40 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.7",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "RopeStressTests",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+      {
+        "Name": "RopeSystem",
+        "Type": "Runtime",
+        "LoadingPhase": "Default"
+      },
+      {
+        "Name": "ChainConstraint",
+        "Type": "Runtime",
+        "LoadingPhase": "Default"
+      }
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "StateTree",
+			"Enabled": true
+		},
+		{
+			"Name": "GameplayStateTree",
+			"Enabled": true
+		}
+	]
+}
